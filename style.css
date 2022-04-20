@@ -78,6 +78,44 @@ h2{
     gap: 20px;
 }
 
+
+/*MIDDLE STYLING*/
+/*MIDDLE*/
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+/*IMAGES*/
+.subtext img{
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    border: 5px solid #3882f6;
+}
+.subtext p{
+    margin: 0;
+    text-align: center;
+}
+/*CONTAINERS*/
+.images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 50px;
+}
+.subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+/*QUOTE STYLING*/
+
 /*FOOTER*/
 footer{
     background-color: #1f2937;
