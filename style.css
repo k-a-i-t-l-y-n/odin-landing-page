@@ -81,6 +81,9 @@ h2{
 
 /*MIDDLE STYLING*/
 /*MIDDLE*/
+.middle{
+    margin: 50px 100px 150px 100px;
+}
 
 h3{
     text-align: center;
@@ -115,6 +118,33 @@ h3{
 }
 
 /*QUOTE STYLING*/
+
+/*CONTAINERS*/
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote_container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 750px;
+}
+
+figcaption{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 600;
+}
 
 /*FOOTER*/
 footer{
