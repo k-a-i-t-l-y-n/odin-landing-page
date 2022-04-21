@@ -200,7 +200,20 @@ figcaption{
 /*FOOTER*/
 footer{
     background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
 }
 
+/*CONTAINER*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
