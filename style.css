@@ -146,6 +146,57 @@ figcaption{
     font-weight: 600;
 }
 
+/*CTA STYLING*/
+
+/*CONTAINERS*/
+.cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: #fff;
+    width: 1000px;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 40px 30px;
+}
+
+.cta_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.cta_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.cta h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.cta p{
+    margin: 0;
+}
+
+.cta button{
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
 /*FOOTER*/
 footer{
     background-color: #1f2937;
